@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlipFluence - Elite Reselling Community | Amazon FBA & Retail Arbitrage</title>
+    <meta name="description" content="Join FlipFluence - The #1 reselling community. Learn Amazon FBA, retail arbitrage, and wholesale strategies. $50/month. Start flipping for profit today.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0f0f13; color: #ffffff; }
+        .font-display { font-family: 'Space Grotesk', sans-serif; }
+        .gradient-text { background: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .gradient-purple { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glass-card { background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
+        .glow-orange { box-shadow: 0 0 30px rgba(255,107,107,0.3); }
+        .grid-pattern { background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.05) 1px, transparent 0); background-size: 40px 40px; }
+        .sticky-cta { position: fixed; bottom: 0; left: 0; right: 0; z-index: 50; transform: translateY(100%); transition: transform 0.3s; }
+        .sticky-cta.visible { transform: translateY(0); }
+    </style>
+</head>
+<body class="antialiased overflow-x-hidden">
+
+    <!-- Sticky Header -->
+    <header class="fixed top-0 w-full bg-[#0f0f13]/90 backdrop-blur-md border-b border-white/10 z-40">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-gradient-to-br from-orange-400 to-yellow-400 rounded-lg flex items-center justify-center font-bold text-black">F</div>
+                <span class="font-display text-xl font-bold tracking-wider">FLIPFLUENCE</span>
+            </div>
+            <a href="https://whop.com/flipfluence/flipfluence?a=digitalartlab" target="_blank" class="bg-orange-500 hover:bg-orange-400 text-black font-bold px-6 py-2 rounded-full transition-all transform hover:scale-105">
+                Join Now - $50/mo
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center pt-20 grid-pattern">
+        <div class="absolute inset-0 bg-gradient-to-b from-orange-500/10 via-transparent to-transparent"></div>
+        
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-2 mb-6">
+                        <span class="w-2 h-2 bg-orange-500 rounded-full animate-pulse"></span>
+                        <span class="text-sm text-gray-300">49+ Active Flippers Earning Daily</span>
+                    </div>
+                    
+                    <h1 class="font-display text-5xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight">
+                        TURN <span class="gradient-text">$100 INTO $1,000</span><br>
+                        WITH RESelling
+                    </h1>
+                    
+                    <p class="text-xl text-gray-400 mb-8 leading-relaxed">
+                        Join the elite community mastering Amazon FBA, Retail Arbitrage, and Wholesale. 
+                        Get daily leads, supplier contacts, and mentorship from 7-figure sellers.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
+                        <a href="https://whop.com/flipfluence/flipfluence?a=digitalartlab" target="_blank" 
+                           class="bg-orange-500 hover:bg-orange-400 text-black font-black text-lg px-8 py-4 rounded-full transition-all transform hover:scale-105 glow-orange flex items-center justify-center gap-2">
+                            <span>JOIN FLIPFLUENCE - $50/MO</span>
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+                        </a>
+                        <a href="https://whop.com/flipfluence/flipfluence-copy?a=digitalartlab" target="_blank"
+                           class="bg-white/10 hover:bg-white/20 text-white font-bold text-lg px-8 py-4 rounded-full transition-all border border-white/20">
+                            Free Announcements
+                        </a>
+                    </div>
+
+                    <div class="flex flex-wrap justify-center lg:justify-start gap-4 text-sm text-gray-500">
+                        <div class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-orange-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span>20% Affiliate Commission</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-orange-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span>Daily Profit Leads</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-orange-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span>Supplier Directories</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visual Side -->
+                <div class="relative hidden lg:block">
+                    <div class="glass-card p-6 rounded-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-sm text-gray-400">Today's Profit Lead</span>
+                            <span class="bg-green-500/20 text-green-400 text-xs px-2 py-1 rounded">IN STOCK</span>
+                        </div>
+                        <div class="bg-white/5 rounded-lg p-4 mb-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="font-bold">Nintendo Switch OLED</span>
+                                <span class="text-green-400 font-bold">+$45 profit</span>
+                            </div>
+                            <div class="text-sm text-gray-400">Buy: $299 → Sell: $389</div>
+                            <div class="text-xs text-gray-500 mt-1">Source: Target Clearance</div>
+                        </div>
+                        <div class="flex gap-2">
+                            <div class="flex-1 bg-white/5 rounded p-2 text-center">
+                                <div class="text-lg font-bold text-orange-400">127</div>
+                                <div class="text-xs text-gray-500">Members Online</div>
+                            </div>
+                            <div class="flex-1 bg-white/5 rounded p-2 text-center">
+                                <div class="text-lg font-bold text-yellow-400">$2.4M</div>
+                                <div class="text-xs text-gray-500">Member Sales</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card p-4 rounded-xl absolute -bottom-10 -left-10 transform -rotate-6 max-w-xs">
+                        <div class="flex items-center gap-3 mb-2">
+                            <div class="w-10 h-10 bg-gradient-to-br from-orange-400 to-yellow-400 rounded-full flex items-center justify-center text-black font-bold">JD</div>
+                            <div>
+                                <div class="font-bold text-sm">Just made $890!</div>
+                                <div class="text-xs text-gray-500">2 minutes ago</div>
+                            </div>
+                        </div>
+                        <div class="text-xs text-gray-400">"Found 20 units of Lego sets at Walmart. Already sold 12 on Amazon!"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <div class="bg-orange-500/10 border-y border-orange-500/20 py-8 mt-10">
+        <div class="container mx-auto  px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8   text-center">
+                <div>
+                    <div class="text-3xl font-black text-orange-400">49+</div>
+                    <div class="text-sm text-gray-400">Active Members</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-black text-yellow-400">$2.4M+</div>
+                    <div class="text-sm text-gray-400">Member Revenue</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-black text-purple-400">50-300%</div>
+                    <div class="text-sm text-gray-400">Avg ROI</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-black text-green-400">24/7</div>
+                    <div class="text-sm text-gray-400">Lead Updates</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- What You Learn -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="font-display text-4xl md:text-5xl font-bold mb-4">EVERYTHING YOU NEED TO <span class="gradient-purple">SCALE</span></h2>
+                <p class="text-gray-400 text-lg">From beginner to 7-figure seller, we've got you covered</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <!-- Card 1 -->
+                <div class="glass-card p-6 rounded-2xl hover:border-orange-500/50 transition-all group">
+                    <div class="w-12 h-12 bg-orange-500/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg class="w-6 h-6 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Daily Profit Leads</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">5-10 vetted leads daily. We tell you exactly what to buy, where to find it, and how much profit you'll make.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="glass-card p-6 rounded-2xl hover:border-orange-500/50 transition-all group">
+                    <div class="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Private Community</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Network with 49+ active resellers. Share wins, ask questions, and find local sourcing partners.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="glass-card p-6 rounded-2xl hover:border-orange-500/50 transition-all group">
+                    <div class="w-12 h-12 bg-purple-500/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Supplier Directory</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Verified wholesale suppliers, liquidators, and distributors. Skip the gatekeepers and buy direct.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="glass-card p-6 rounded-2xl hover:border-orange-500/50 transition-all group">
+                    <div class="w-12 h-12 bg-green-500/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Bot Protection</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Learn how to secure limited releases, use automation tools ethically, and beat the competition to inventory.</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="glass-card p-6 rounded-2xl hover:border-orange-500/50 transition-all group">
+                    <div class="w-12 h-12 bg-yellow-500/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg class="w-6 h-6 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Video Courses</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Step-by-step training on Amazon FBA, eBay, Facebook Marketplace, and Shopify dropshipping.</p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="glass-card p-6 rounded-2xl hover:border-orange-500/50 transition-all group">
+                    <div class="w-12 h-12 bg-pink-500/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg class="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Weekly Q&A Calls</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Live calls with 7-figure sellers. Get your specific questions answered and stay updated on market trends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section class="py-20 bg-white/5">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="font-display text-4xl font-bold mb-4">MEMBER SUCCESS STORIES</h2>
+                <p class="text-gray-400">Real people, real profits, real results</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div class="glass-card p-6 rounded-2xl border-t-4 border-orange-500">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-orange-400 to-yellow-400 rounded-full flex items-center justify-center text-black font-bold text-lg">RK</div>
+                        <div>
+                            <div class="font-bold">Ryan K.</div>
+                            <div class="text-xs text-gray-500">Member 8 months</div>
+                        </div>
+                    </div>
+                    <div class="text-2xl font-black text-green-400 mb-2">$47,000</div>
+                    <div class="text-sm text-gray-400 mb-4">Total profit since joining</div>
+                    <p class="text-sm text-gray-300 leading-relaxed">"Started with $500 in my bank account. Now doing $15k months consistently. The daily leads alone are worth 10x the membership."</p>
+                </div>
+
+                <div class="glass-card p-6 rounded-2xl border-t-4 border-blue-500">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center text-white font-bold text-lg">AM</div>
+                        <div>
+                            <div class="font-bold">Amanda M.</div>
+                            <div class="text-xs text-gray-500">Member 3 months</div>
+                        </div>
+                    </div>
+                    <div class="text-2xl font-black text-green-400 mb-2">$12,400</div>
+                    <div class="text-sm text-gray-400 mb-4">First quarter earnings</div>
+                    <p class="text-sm text-gray-300 leading-relaxed">"Quit my retail job last month. Now I work 3 hours a day sourcing and make more than my manager did. Life changing."</p>
+                </div>
+
+                <div class="glass-card p-6 rounded-2xl border-t-4 border-purple-500">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg">TJ</div>
+                        <div>
+                            <div class="font-bold">Tyler J.</div>
+                            <div class="text-xs text-gray-500">Member 1 year</div>
+                        </div>
+                    </div>
+                    <div class="text-2xl font-black text-green-400 mb-2">$128,000</div>
+                    <div class="text-sm text-gray-400 mb-4">Annual profit</div>
+                    <p class="text-sm text-gray-300 leading-relaxed">"Went from garage flipping to renting a warehouse. The supplier contacts in this group are pure gold. Network is everything."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="glass-card rounded-3xl p-8 md:p-12 border-2 border-orange-500/30 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-orange-500 text-black font-bold px-4 py-1 rounded-bl-xl text-sm">RECOMMENDED</div>
+                    
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="font-display text-3xl font-bold mb-2">FLIPFLUENCE ACCESS</h3>
+                            <p class="text-gray-400 mb-6">Full community access + all training</p>
+                            
+                            <div class="flex items-baseline gap-2 mb-6">
+                                <span class="text-5xl font-black text-white">$50</span>
+                                <span class="text-gray-400">/ month</span>
+                            </div>
+                            
+                            <ul class="space-y-3 mb-8">
+                                <li class="flex items-center gap-3 text-sm">
+                                    <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                    <span>Daily Profit Leads (5-10/day)</span>
+                                </li>
+                                <li class="flex items-center gap-3 text-sm">
+                                    <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                    <span>Private Discord Community</span>
+                                </li>
+                                <li class="flex items-center gap-3 text-sm">
+                                    <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                    <span>Supplier Directory</span>
+                                </li>
+                                <li class="flex items-center gap-3 text-sm">
+                                    <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                    <span>Video Course Library</span>
+                                </li>
+                                <li class="flex items-center gap-3 text-sm">
+                                    <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                    <span>Weekly Live Calls</span>
+                                </li>
+                                <li class="flex items-center gap-3 text-sm">
+                                    <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                    <span>Cancel Anytime</span>
+                                </li>
+                            </ul>
+                            
+                            <a href="https://whop.com/flipfluence/flipfluence?a=digitalartlab" target="_blank" 
+                               class="block w-full bg-orange-500 hover:bg-orange-400 text-black font-black text-center text-lg px-8 py-4 rounded-full transition-all transform hover:scale-105 glow-orange">
+                                START FLIPPING NOW
+                            </a>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <div class="glass-card p-4 rounded-xl border-l-4 border-yellow-500">
+                                <div class="flex justify-between items-center mb-2">
+                                    <span class="font-bold">Free Announcements</span>
+                                    <span class="text-yellow-400 font-bold">FREE</span>
+                                </div>
+                                <p class="text-xs text-gray-400 mb-3">Get a taste of the community. Limited leads but full value.</p>
+                                <a href="https://whop.com/flipfluence/flipfluence-copy?a=digitalartlab" target="_blank" class="text-sm text-orange-400 hover:text-orange-300 font-semibold flex items-center gap-1">
+                                    Join Free Channel <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                                </a>
+                            </div>
+                            
+                            <div class="bg-gradient-to-br from-orange-500/20 to-yellow-500/20 p-6 rounded-xl border border-orange-500/30">
+                                <h4 class="font-bold mb-2 flex items-center gap-2">
+                                    <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                    Affiliate Disclosure
+                                </h4>
+                                <p class="text-sm text-gray-300 leading-relaxed">
+                                    I earn a 20% commission when you join through my link. This supports my content creation at no extra cost to you. You get the same great price and access.
+                                </p>
+                            </div>
+
+                            <div class="glass-card p-4 rounded-xl">
+                                <h5 class="font-bold text-sm mb-2 text-gray-300">Recent Leads Example:</h5>
+                                <ul class="text-xs text-gray-400 space-y-2">
+                                    <li class="flex justify-between">
+                                        <span>• Lego Star Wars Set</span>
+                                        <span class="text-green-400">+$34 profit</span>
+                                    </li>
+                                    <li class="flex justify-between">
+                                        <span>• Nike Dunk Lows</span>
+                                        <span class="text-green-400">+$67 profit</span>
+                                    </li>
+                                    <li class="flex justify-between">
+                                        <span>• iPad Air 5th Gen</span>
+                                        <span class="text-green-400">+$89 profit</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-20 bg-white/5">
+        <div class="container mx-auto px-4 max-w-3xl">
+            <h2 class="font-display text-4xl font-bold text-center mb-12">QUESTIONS? ANSWERED.</h2>
+            
+            <div class="space-y-4">
+                <div class="glass-card rounded-xl overflow-hidden">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center font-bold hover:bg-white/5 transition-colors" onclick="toggleFaq(this)">
+                        <span>Do I need experience to start?</span>
+                        <svg class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="hidden px-6 pb-4 text-gray-400 text-sm leading-relaxed">
+                        Absolutely not. We have complete training modules that take you from absolute beginner to your first sale. Many members start with $0 experience and make money in their first week.
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-xl overflow-hidden">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center font-bold hover:bg-white/5 transition-colors" onclick="toggleFaq(this)">
+                        <span>How much money do I need to start?</span>
+                        <svg class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="hidden px-6 pb-4 text-gray-400 text-sm leading-relaxed">
+                        You can start with as little as $100-200 for retail arbitrage (buying from stores and selling online). As you profit, you reinvest. Most successful members started with under $500.
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-xl overflow-hidden">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center font-bold hover:bg-white/5 transition-colors" onclick="toggleFaq(this)">
+                        <span>Is this only for US residents?</span>
+                        <svg class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="hidden px-6 pb-4 text-gray-400 text-sm leading-relaxed">
+                        Most leads are US-based, but we have members from UK, Canada, and Australia using similar strategies in their markets. The principles work globally, though specific stores may vary.
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-xl overflow-hidden">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center font-bold hover:bg-white/5 transition-colors" onclick="toggleFaq(this)">
+                        <span>How quickly can I make my money back?</span>
+                        <svg class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="hidden px-6 pb-4 text-gray-400 text-sm leading-relaxed">
+                        Many members profit $200-500 in their first week just from one or two good flips. The $50 membership pays for itself with a single successful deal.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="font-display text-4xl md:text-5xl font-bold mb-6">STOP SCROLLING. START FLIPPING.</h2>
+            <p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">Your first profit lead could be waiting right now. Join 49+ flippers who are already building their empire.</p>
+            
+            <a href="https://whop.com/flipfluence/flipfluence?a=digitalartlab" target="_blank" 
+               class="bg-orange-500 hover:bg-orange-400 text-black font-black text-xl px-10 py-5 rounded-full transition-all transform hover:scale-105 glow-orange inline-flex items-center gap-2">
+                <span>JOIN FLIPFLUENCE NOW</span>
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+            </a>
+            
+            <p class="text-sm text-gray-500 mt-6">🔒 Secure Whop checkout • Cancel anytime • 20% affiliate commission</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0a0a0e] border-t border-white/10 py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <div class="flex items-center gap-2">
+                    <div class="w-8 h-8 bg-gradient-to-br from-orange-400 to-yellow-400 rounded-lg flex items-center justify-center font-bold text-black">F</div>
+                    <span class="font-display text-xl font-bold tracking-wider">FLIPFLUENCE</span>
+                </div>
+                <div class="text-sm text-gray-500 text-center md:text-right">
+                    <p>Affiliate disclosure: I earn a 20% commission from your subscription.</p>
+                    <p class="mt-1">Results vary. Success requires effort and capital.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const stickyCta = document.getElementById('stickyCta');
+            if (window.scrollY > 500) {
+                stickyCta.classList.add('visible');
+            } else {
+                stickyCta.classList.remove('visible');
+            }
+        });
+
+        function toggleFaq(button) {
+            const answer = button.nextElementSibling;
+            const arrow = button.querySelector('svg');
+            
+            if (answer.classList.contains('hidden')) {
+                answer.classList.remove('hidden');
+                arrow.style.transform = 'rotate(180deg)';
+            } else {
+                answer.classList.add('hidden');
+                arrow.style.transform = 'rotate(0deg)';
+            }
+        }
+    </script>
+</body>
+</html>
